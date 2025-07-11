@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "lib": ["es2023"],
+    "target": "es2022",
+    "allowJs": true,
+    "noEmit": true,
+    "module": "node16",
+    "moduleResolution": "node16",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "useDefineForClassFields": false,
+    "paths": {
+      "~/*": ["./src/*"],
+      "test/*": ["./__tests__/*"]
+    }
+  },
+  "exclude": ["node_modules/", ".dist/"],
+  "include": ["src/**/*", "scripts/**/*", "__tests__/**/*"]
+}
